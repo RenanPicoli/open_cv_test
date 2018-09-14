@@ -58,7 +58,12 @@
 
 #include <functional>
 
+#define __cplusplus 201103L
 #include <mutex>  // std::mutex, std::lock_guard
+//namespace std {
+//class a;
+//typedef a recursive_mutex;
+//}
 
 namespace cv
 {
