@@ -16,20 +16,47 @@
 					<folderInfo id="cdt.managedbuild.config.gnu.mingw.exe.debug.1730160543." name="/" resourcePath="">
 						<toolChain id="cdt.managedbuild.toolchain.gnu.mingw.exe.debug.462414395" name="Atollic PC Tools" superClass="cdt.managedbuild.toolchain.gnu.mingw.exe.debug">
 							<targetPlatform id="cdt.managedbuild.target.gnu.platform.mingw.exe.debug.716503356" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.mingw.exe.debug"/>
-							<builder buildPath="${workspace_loc:/open_cv_test}/Debug" id="cdt.managedbuild.tool.gnu.builder.mingw.base.1754669165" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="CDT Internal Builder" superClass="cdt.managedbuild.tool.gnu.builder.mingw.base"/>
+							<builder buildPath="${workspace_loc:/open_cv_test}/Debug" customBuilderProperties="toolChainpathType=1|toolChainpathString=C:\\Program Files (x86)\\Atollic\\TrueSTUDIO for STM32 9.0.1\\PCTools\\bin|" id="cdt.managedbuild.tool.gnu.builder.mingw.base.1754669165" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="CDT Internal Builder" superClass="cdt.managedbuild.tool.gnu.builder.mingw.base"/>
 							<tool id="cdt.managedbuild.tool.gnu.assembler.mingw.exe.debug.367137384" name="Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.mingw.exe.debug">
+								<option id="gnu.both.asm.option.include.paths.340585000" name="Include paths (-I)" superClass="gnu.both.asm.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/open_cv_test/opencv/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/open_cv_test/opencv/modules/core/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/open_cv_test/opencv/modules/imgproc/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/open_cv_test/opencv/modules/imgcodecs/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/open_cv_test/opencv/modules/highgui/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/open_cv_test/opencv/modules/videoio/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/open_cv_test/opencv/modules/ts/include}&quot;"/>
+								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.1901482249" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
 							</tool>
 							<tool id="cdt.managedbuild.tool.gnu.archiver.mingw.base.977020643" name="Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.mingw.base"/>
 							<tool id="cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.debug.1114789113" name="C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.debug">
 								<option defaultValue="gnu.c.optimization.level.none" id="gnu.c.compiler.mingw.exe.debug.option.optimization.level.1146886816" name="Optimization Level" superClass="gnu.c.compiler.mingw.exe.debug.option.optimization.level" valueType="enumerated"/>
 								<option id="gnu.c.compiler.mingw.exe.debug.option.debugging.level.1795009897" name="Debug Level" superClass="gnu.c.compiler.mingw.exe.debug.option.debugging.level" value="gnu.c.debugging.level.max" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.include.paths.2121815648" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/open_cv_test/opencv/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/open_cv_test/opencv/modules/core/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/open_cv_test/opencv/modules/imgproc/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/open_cv_test/opencv/modules/imgcodecs/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/open_cv_test/opencv/modules/highgui/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/open_cv_test/opencv/modules/videoio/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/open_cv_test/opencv/modules/ts/include}&quot;"/>
+								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1963926240" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
 							</tool>
 							<tool id="cdt.managedbuild.tool.gnu.c.linker.mingw.exe.debug.1931087280" name="C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.mingw.exe.debug"/>
-							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.exe.debug.1616173173" name="C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.exe.debug">
+							<tool command="g++ -std=c++11" id="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.exe.debug.1616173173" name="C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.exe.debug">
 								<option id="gnu.cpp.compiler.mingw.exe.debug.option.optimization.level.1871678993" name="Optimization Level" superClass="gnu.cpp.compiler.mingw.exe.debug.option.optimization.level" value="gnu.cpp.compiler.optimization.level.none" valueType="enumerated"/>
 								<option id="gnu.cpp.compiler.mingw.exe.debug.option.debugging.level.1016794624" name="Debug Level" superClass="gnu.cpp.compiler.mingw.exe.debug.option.debugging.level" value="gnu.cpp.compiler.debugging.level.max" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.option.include.paths.1077060126" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/open_cv_test/opencv/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/open_cv_test/opencv/modules/imgproc/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/open_cv_test/opencv/modules/core/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/open_cv_test/opencv/modules/imgcodecs/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/open_cv_test/opencv/modules/highgui/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/open_cv_test/opencv/modules/videoio/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/open_cv_test/opencv/modules/ts/include}&quot;"/>
+								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.1275226895" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
 							</tool>
 							<tool id="cdt.managedbuild.tool.gnu.cpp.linker.mingw.exe.debug.186765751" name="C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.mingw.exe.debug">
@@ -41,6 +68,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
+						<entry excluding="core/src/persistence.cpp|videoio/src/cap_winrt_capture.cpp|core/perf|videoio/test|videoio/perf|imgcodecs/test|highgui/test|imgcodecs/perf|imgproc/perf|core/test|imgproc/test|ts|calib3d|world|viz|videostab|video|superres|stitching|shape|python|photo|objdetect|ml|js|java|flann|features2d|dnn|cudev|cudawarping|cudastereo|cudaoptflow|cudaobjdetect|cudalegacy|cudaimgproc|cudafilters|cudafeatures2d|cudacodec|cudabgsegm|cudaarithm" flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="opencv/modules"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
 					</sourceEntries>
 				</configuration>
@@ -64,18 +92,45 @@
 							<targetPlatform id="cdt.managedbuild.target.gnu.platform.mingw.exe.release.1530832466" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.mingw.exe.release"/>
 							<builder buildPath="${workspace_loc:/open_cv_test}/Release" id="cdt.managedbuild.tool.gnu.builder.mingw.base.28081807" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="CDT Internal Builder" superClass="cdt.managedbuild.tool.gnu.builder.mingw.base"/>
 							<tool id="cdt.managedbuild.tool.gnu.assembler.mingw.exe.release.1113583172" name="Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.mingw.exe.release">
+								<option id="gnu.both.asm.option.include.paths.1283873767" name="Include paths (-I)" superClass="gnu.both.asm.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/open_cv_test/opencv/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/open_cv_test/opencv/modules/core/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/open_cv_test/opencv/modules/imgproc/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/open_cv_test/opencv/modules/imgcodecs/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/open_cv_test/opencv/modules/highgui/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/open_cv_test/opencv/modules/videoio/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/open_cv_test/opencv/modules/ts/include}&quot;"/>
+								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.1489363930" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
 							</tool>
 							<tool id="cdt.managedbuild.tool.gnu.archiver.mingw.base.222166046" name="Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.mingw.base"/>
 							<tool id="cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.release.1715005074" name="C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.release">
 								<option defaultValue="gnu.c.optimization.level.most" id="gnu.c.compiler.mingw.exe.release.option.optimization.level.760211359" name="Optimization Level" superClass="gnu.c.compiler.mingw.exe.release.option.optimization.level" valueType="enumerated"/>
 								<option id="gnu.c.compiler.mingw.exe.release.option.debugging.level.2127331579" name="Debug Level" superClass="gnu.c.compiler.mingw.exe.release.option.debugging.level" value="gnu.c.debugging.level.none" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.include.paths.1274996329" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/open_cv_test/opencv/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/open_cv_test/opencv/modules/core/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/open_cv_test/opencv/modules/imgproc/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/open_cv_test/opencv/modules/imgcodecs/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/open_cv_test/opencv/modules/highgui/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/open_cv_test/opencv/modules/videoio/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/open_cv_test/opencv/modules/ts/include}&quot;"/>
+								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.399136915" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
 							</tool>
 							<tool id="cdt.managedbuild.tool.gnu.c.linker.mingw.exe.release.1055641980" name="C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.mingw.exe.release"/>
 							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.exe.release.1201428704" name="C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.exe.release">
 								<option id="gnu.cpp.compiler.mingw.exe.release.option.optimization.level.108456385" name="Optimization Level" superClass="gnu.cpp.compiler.mingw.exe.release.option.optimization.level" value="gnu.cpp.compiler.optimization.level.most" valueType="enumerated"/>
 								<option id="gnu.cpp.compiler.mingw.exe.release.option.debugging.level.2102917183" name="Debug Level" superClass="gnu.cpp.compiler.mingw.exe.release.option.debugging.level" value="gnu.cpp.compiler.debugging.level.none" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.option.include.paths.954393663" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/open_cv_test/opencv/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/open_cv_test/opencv/modules/core/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/open_cv_test/opencv/modules/imgproc/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/open_cv_test/opencv/modules/imgcodecs/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/open_cv_test/opencv/modules/highgui/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/open_cv_test/opencv/modules/videoio/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/open_cv_test/opencv/modules/ts/include}&quot;"/>
+								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.1592699719" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
 							</tool>
 							<tool id="cdt.managedbuild.tool.gnu.cpp.linker.mingw.exe.release.739918888" name="C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.mingw.exe.release">
@@ -87,6 +142,10 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
+						<entry excluding="test" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="opencv/modules/highgui"/>
+						<entry excluding="test|perf" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="opencv/modules/imgcodecs"/>
+						<entry excluding="perf|test" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="opencv/modules/imgproc"/>
+						<entry excluding="src/cap_winrt_capture.cpp|test|perf" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="opencv/modules/videoio"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
 					</sourceEntries>
 				</configuration>
@@ -113,4 +172,13 @@
 		</scannerConfigBuildInfo>
 	</storageModule>
 	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="Debug">
+			<resource resourceType="PROJECT" workspacePath="/open_cv_test"/>
+		</configuration>
+		<configuration configurationName="Release">
+			<resource resourceType="PROJECT" workspacePath="/open_cv_test"/>
+		</configuration>
+	</storageModule>
 </cproject>
