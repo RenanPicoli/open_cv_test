@@ -45,7 +45,7 @@
 								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1963926240" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
 							</tool>
 							<tool id="cdt.managedbuild.tool.gnu.c.linker.mingw.exe.debug.1931087280" name="C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.mingw.exe.debug"/>
-							<tool command="g++ -std=c++11" id="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.exe.debug.1616173173" name="C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.exe.debug">
+							<tool command="g++ -std=c++11 " id="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.exe.debug.1616173173" name="C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.exe.debug">
 								<option id="gnu.cpp.compiler.mingw.exe.debug.option.optimization.level.1871678993" name="Optimization Level" superClass="gnu.cpp.compiler.mingw.exe.debug.option.optimization.level" value="gnu.cpp.compiler.optimization.level.none" valueType="enumerated"/>
 								<option id="gnu.cpp.compiler.mingw.exe.debug.option.debugging.level.1016794624" name="Debug Level" superClass="gnu.cpp.compiler.mingw.exe.debug.option.debugging.level" value="gnu.cpp.compiler.debugging.level.max" valueType="enumerated"/>
 								<option id="gnu.cpp.compiler.option.include.paths.1077060126" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
@@ -68,7 +68,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="core/src/persistence.cpp|videoio/src/cap_winrt_capture.cpp|core/perf|videoio/test|videoio/perf|imgcodecs/test|highgui/test|imgcodecs/perf|imgproc/perf|core/test|imgproc/test|ts|calib3d|world|viz|videostab|video|superres|stitching|shape|python|photo|objdetect|ml|js|java|flann|features2d|dnn|cudev|cudawarping|cudastereo|cudaoptflow|cudaobjdetect|cudalegacy|cudaimgproc|cudafilters|cudafeatures2d|cudacodec|cudabgsegm|cudaarithm" flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="opencv/modules"/>
+						<entry excluding="videoio|core/src/persistence.cpp|videoio/src/cap_winrt_capture.cpp|core/perf|videoio/test|videoio/perf|imgcodecs/test|highgui/test|imgcodecs/perf|imgproc/perf|core/test|imgproc/test|ts|calib3d|world|viz|videostab|video|superres|stitching|shape|python|photo|objdetect|ml|js|java|flann|features2d|dnn|cudev|cudawarping|cudastereo|cudaoptflow|cudaobjdetect|cudalegacy|cudaimgproc|cudafilters|cudafeatures2d|cudacodec|cudabgsegm|cudaarithm" flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="opencv/modules"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
 					</sourceEntries>
 				</configuration>
@@ -145,7 +145,6 @@
 						<entry excluding="test" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="opencv/modules/highgui"/>
 						<entry excluding="test|perf" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="opencv/modules/imgcodecs"/>
 						<entry excluding="perf|test" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="opencv/modules/imgproc"/>
-						<entry excluding="src/cap_winrt_capture.cpp|test|perf" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="opencv/modules/videoio"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
 					</sourceEntries>
 				</configuration>
